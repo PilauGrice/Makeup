@@ -2,3 +2,8 @@
 @plugin "@tailwindcss/typography";
 @source "../views";
 @source "../../content";
+
+@theme {
+  --color-brandPink: #dc9eab;
+  /* ... */
+}
