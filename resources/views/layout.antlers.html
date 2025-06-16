@@ -6,15 +6,19 @@
 {{ vite src="resources/js/site.js" }}
 </head>
 <body class="bg-white text-gray-800">
-
+  
   {{partial:nav}}
   
   <main class="container mx-auto px-4 py-8">
+  
     {{ template_content }}
+  
   </main>
 
   <footer class="text-center text-sm text-gray-500 py-6">
-    &copy; {{ now format="Y" }} My Statamic Site
+  
+    {{partial:footer}}
+  
   </footer>
 
 </body>
