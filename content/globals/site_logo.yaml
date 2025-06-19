@@ -1,4 +1,3 @@
-title: site_logo
+title: 'Site Logo'
 data:
-  site_logoBp:
-    - trish-dixon-png-(1).png
+  logo: trish-dixon-png-(1).png

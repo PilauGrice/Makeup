@@ -2,6 +2,14 @@
 
 return [
 
+
+    'assets' => [
+    'disk' => 'site_assets',
+    'url' => '/assets',
+    'root' => public_path('assets'),
+],
+
+
     'image_manipulation' => [
 
         /*

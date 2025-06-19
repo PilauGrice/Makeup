@@ -1,12 +1,11 @@
+title: Site Logo
 tabs:
   main:
     display: Main
     sections:
-      -
-        fields:
-          -
-            handle: logo
+      - fields:
+          - handle: logo
             field:
-              container: assets
               type: assets
-              display: logo
+              container: assets
+              display: Logo

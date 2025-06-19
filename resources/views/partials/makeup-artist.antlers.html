@@ -1,0 +1,35 @@
+<div class="h-screen flex pt-8 pb-8 justify-center bg-[repeating-linear-gradient(90deg,#f9dcdc_0px,#f9dcdc_10px,#fce6e6_10px,#fce6e6_20px)]">
+  <div>    
+    <!-- Avatar -->
+    <div class="relative z-10">
+      <img src="{{ avatar }}" alt="{{ name }}" class="w-28 h-28 mx-auto rounded-full border-4 border-white shadow-md" />
+    </div>
+
+    <!-- Name & Title -->
+    <div class="relative border-4 border-white shadow-md z-10 mt-4 absolute inset-0 bg-[repeating-linear-gradient(0deg,#f9dcdc_0px,#f9dcdc_10px,#fce6e6_10px,#fce6e6_20px)] opacity-60 rounded-3xl">
+      <h2 class="text-pink-800 font-semibold text-lg">{{ myname }}</h2>
+      <p class="text-pink-600 text-sm">{{ title }}</p>
+    </div>
+
+    <!-- Icon Buttons -->
+    <div class="relative z-10 flex justify-center gap-4 mt-5">
+      <a href="{{ link1 }}" class="w-10 h-10 flex items-center justify-center rounded-full bg-white shadow">
+        <img src="/icons/heart.svg" class="w-5 h-5" />
+      </a>
+      <a href="{{ link2 }}" class="w-10 h-10 flex items-center justify-center rounded-full bg-white shadow">
+        <img src="/icons/profile.svg" class="w-5 h-5" />
+      </a>
+      <a href="{{ link3 }}" class="w-10 h-10 flex items-center justify-center rounded-full bg-white shadow">
+        <img src="/icons/check.svg" class="w-5 h-5" />
+      </a>
+    </div>
+
+    <!-- Bottom Button/Tag -->
+    <div class="relative z-10 mt-6">
+      <button class="px-4 py-1 bg-white text-pink-600 font-medium text-sm rounded-full border border-pink-300 shadow">
+        {{ bottom_text }}
+      </button>
+    </div>
+
+  </div>
+</div>

@@ -1,57 +1,40 @@
-<header>
-  <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-    <div class="flex h-16 items-center justify-between">
-      <div class="md:flex md:items-center md:gap-12">
+<header class="bg-white shadow-sm">
+  <div class="mx-auto flex max-w-screen-xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
+    
+    <!-- Logo -->
+    <a href="{{ homepage }}" class="block w-30">
+      <span class="sr-only">Home</span>
+      {{ site_logo:logo }}
+        <img
+          src="{{ url }}"
+          alt="Site Logo"
+          class="w-full h-auto object-contain"
+        >
+      {{ /site_logo:logo }}
+    </a>
 
-<a href="{{ homepage }}" class="block">
-  <span class="sr-only">Home</span>
+    <!-- Navigation -->
+    <nav class="hidden space-x-6 text-sm font-semibold uppercase text-gray-700 sm:flex">
+      {{ nav:main }}
+        <a
+          href="{{ url }}"
+          class="hover:text-brandPink transition  hover:underline-offset-8 hover:underline
+ {{ if is_current }}text-brandPink font-bold underline-offset-8{{ /if }}"
+        >
+          {{ title }}
+        </a>
+      {{ /nav:main }}
+    </nav>
 
-{{ global:site_logo:logo }}
-  <img src="{{ url }}" alt="Logo" class="h-8" />
-{{ /global:site_logo:logo }}
-
-</a>
-
-      </div>
-
-
-      <div class="hidden md:block">
-        <nav aria-label="Global">
-    {{ nav:main }}
-            
-              <a href="{{ url }}" class="hover:underline {{ if is_current }}font-bold{{ /if }}">{{ title }}</a>
-        
-          {{ /nav:main }}
-        </nav>
-      </div>
-
-      <div class="flex items-center gap-4">
-        <div class="sm:flex sm:gap-4">
-          <a
-            class="rounded-md bg-brandPink px-5 py-2.5 text-sm font-medium text-white shadow-sm dark:hover:bg-teal-500"
-            href="#"
-          >
-            Contact Me
-          </a>
-        </div>
-
-        <div class="block md:hidden">
-          <button
-            class="rounded-sm bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75 dark:bg-gray-800 dark:text-white dark:hover:text-white/75"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="size-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              stroke-width="2"
-            >
-              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
-          </button>
-        </div>
-      </div>
+    <!-- Contact Button -->
+    <div class="shrink-0">
+      <a
+        href="#"
+        class="rounded-full bg-brandPink px-5 py-2 text-sm font-semibold text-white hover:bg-pink-600 transition"
+      >
+        Contact Me
+      </a>
     </div>
+
   </div>
 </header>

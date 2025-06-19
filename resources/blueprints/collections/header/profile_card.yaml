@@ -1,0 +1,58 @@
+title: 'Profile Card'
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: avatar
+            field:
+              type: assets
+              max_files: 1
+              container: assets
+              folder: avatars
+          -
+            handle: myname
+            field:
+              type: text
+              width: 50
+              display: Name
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              width: 50
+              validate:
+                - required
+          -
+            handle: link1
+            field:
+              type: link
+              width: 33
+          -
+            handle: link2
+            field:
+              type: link
+              width: 33
+          -
+            handle: link3
+            field:
+              type: link
+              width: 33
+          -
+            handle: bottom_text
+            field:
+              type: text
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
