@@ -6,6 +6,11 @@ tabs:
       -
         fields:
           -
+            handle: title
+            field:
+              type: text
+              required: true
+          -
             handle: avatar
             field:
               type: assets
@@ -13,19 +18,19 @@ tabs:
               container: assets
               folder: avatars
           -
-            handle: myname
+            handle: myName
             field:
               type: text
               width: 50
-              display: Name
+              display: myName
           -
-            handle: title
+            handle: jobTitle
             field:
               type: text
-              required: true
               width: 50
               validate:
                 - required
+              display: jobTitle
           -
             handle: link1
             field:

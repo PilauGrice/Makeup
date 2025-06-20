@@ -1,13 +1,23 @@
-<div class="grid gap-8 items-center
-            grid-cols-1       
-            md:grid-cols-2  
-            md:gap-12">
+  <section class="text-gray-600 body-font w-full">
+    <div class="flex w-full md:flex-row flex-col items-center">
+      
+      <!-- Left side -->
+<div class="w-full md:w-1/4 mb-10 md:mb-0">
+{{
+    partial:makeup-artist
+}}      </div>
 
-    <div>
-        {{ partial:makeup-artist }}
+      <!-- Right side -->
+      <div class="w-full md:w-3/4 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
+          <br class="hidden lg:inline-block">readymade gluten
+        </h1>
+        <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over...</p>
+        <div class="flex justify-center">
+          <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+          <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+        </div>
+      </div>
+
     </div>
-
-    <div class="flex justify-center md:justify-end">
-       Otherbits 
-
-</div>
+  </section>
