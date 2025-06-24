@@ -5,5 +5,27 @@
 
 @theme {
   --color-brandPink: #dc9eab;
-  /* ... */
+  --hero-right: url('/assets/darkFeather.jpg');
+  --color-twoPink:#fce6e6;
+  --color-darkPink:#A3004C;
+  --breakpoint-lg: 991px;
+    /* ... */
+}
+
+
+
+.bg-hero-right {
+  background-image: var(--hero-right);
+
+}
+
+
+.icon-hover:hover circle 
+{
+  fill:#fce6e6;
+}
+
+.icon-hover:hover path
+{
+  fill:#A3004C;
 }

@@ -10,6 +10,8 @@ tabs:
             field:
               type: text
               required: true
+              validate:
+                - required
           -
             handle: avatar
             field:
@@ -49,7 +51,53 @@ tabs:
           -
             handle: bottom_text
             field:
+              type: textarea
+              display: bottom_text
+          -
+            handle: herotext1
+            field:
               type: text
+              display: herotext1
+          -
+            handle: herotext2
+            field:
+              type: text
+              display: herotext2
+          -
+            handle: heropara
+            field:
+              type: textarea
+              display: heropara
+      -
+        display: Services
+        fields:
+          -
+            handle: service1img
+            field:
+              max_files: 1
+              container: assets
+              type: assets
+              display: service1img
+          -
+            handle: service1title
+            field:
+              type: text
+              display: service1title
+          -
+            handle: servicepara
+            field:
+              type: text
+              display: servicepara
+          -
+            handle: service1duration
+            field:
+              type: text
+              display: service1duration
+          -
+            handle: service1cost
+            field:
+              type: text
+              display: service1cost
   sidebar:
     display: Sidebar
     sections:

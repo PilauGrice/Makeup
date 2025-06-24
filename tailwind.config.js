@@ -5,6 +5,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+      
         colors: {
         // Add your custom colors here
         brandPink: '#dc9eab',
