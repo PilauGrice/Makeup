@@ -72,32 +72,52 @@ tabs:
         display: Services
         fields:
           -
-            handle: service1img
+            handle: services
+            field:
+              type: replicator
+              display: Services
+              max_sets: 9
+              sets:
+                service:
+                  display: Service
+                  fields:
+                    -
+                      handle: img
+                      field:
+                        type: assets
+                        max_files: 1
+                        container: assets
+                        display: Image
+                    -
+                      handle: title
+                      field:
+                        type: text
+                        display: Title
+                    -
+                      handle: para
+                      field:
+                        type: bard
+                        display: Description
+                    -
+                      handle: duration
+                      field:
+                        type: text
+                        display: Duration
+                    -
+                      handle: cost
+                      field:
+                        type: text
+                        display: Cost
+      -
+        display: Suppliers
+        fields:
+          -
+            handle: supplier_hero
             field:
               max_files: 1
               container: assets
               type: assets
-              display: service1img
-          -
-            handle: service1title
-            field:
-              type: text
-              display: service1title
-          -
-            handle: servicepara
-            field:
-              type: text
-              display: servicepara
-          -
-            handle: service1duration
-            field:
-              type: text
-              display: service1duration
-          -
-            handle: service1cost
-            field:
-              type: text
-              display: service1cost
+              display: 'Supplier Hero'
   sidebar:
     display: Sidebar
     sections:

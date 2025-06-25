@@ -1,0 +1,22 @@
+<section class="w-full text-gray-600 body-font">
+  <div class="px-20 py-24 mx-auto">
+    <div class="flex flex-wrap w-full mb-20">
+      <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+        <h1 class="sm:text-3xl lg:text-4xl md:text-4xl  font-medium title-font mb-2 text-gray-900">Services</h1>
+        <div class="h-1 w-20 bg-brandPink rounded"></div>
+      </div>
+      <p class="lg:w-1/2 w-full leading-relaxed text-gray-500"></p>
+    </div>
+    <div class="flex flex-wrap -m-4">
+{{ services }}
+  <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+    {{ if img }}
+      <img class="h-60 rounded w-full object-cover object-center mb-6" src="{{ img:url }}" alt="{{ title }}">
+    {{ /if }}
+    <h2 class="tracking-widest text-brandPink text-lg font-medium title-font">{{ title }}</h2>
+    <p class="text-s text-gray-900 title-font mb-4">{{ para }}</p>
+    <p class="leading-relaxed text-base font-medium">{{ duration }}</p>
+    <p class="leading-relaxed text-base font-medium">{{ cost }}</p>
+  </div>
+{{ /services }}
+</section>
