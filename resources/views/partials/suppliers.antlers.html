@@ -3,9 +3,26 @@
 
     <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
 
+{{ suppliers }}
+        <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
+           {{ if supplier_icon }}
+      <img  src="{{ supplier_icon:url }}" alt="{{ title }}">
+    {{ /if }}
+        </div>
 
 
-      
+
+         <div class="flex-grow">
+          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">{{ supplier_name }}</h2>
+          <p class="leading-relaxed text-base pr-6">{{supplier_details}}</p>
+          <a href="{{supplier_url}}"class="mt-3 text-brandPink pb-5 inline-flex items-center">Visit Here
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      {{ /suppliers }}
+
     </div>
         <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
       <img alt="feature" class="object-cover object-center h-full w-full" src="{{supplier_hero}}">

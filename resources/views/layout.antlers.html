@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <title>{{ title }}</title>
 {{ vite src="resources/js/site.js" }}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5/dist/fancybox/fancybox.css" />
+
 </head>
 <body class="bg-white text-gray-800">
   
@@ -24,6 +26,10 @@
     {{partial:footer}}
   
   </footer>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5/dist/fancybox/fancybox.umd.js"></script>
+<script>
+  Fancybox.bind("[data-fancybox='gallery']", {});
+</script>
 
 </body>
 </html>

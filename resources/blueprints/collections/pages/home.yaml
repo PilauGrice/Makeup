@@ -118,6 +118,52 @@ tabs:
               container: assets
               type: assets
               display: 'Supplier Hero'
+          -
+            handle: suppliers
+            field:
+              type: replicator
+              display: Suppliers
+              max_sets: 9
+              sets:
+                main:
+                  display: Main
+                  sets:
+                    service:
+                      display: Supplier
+                      fields:
+                        -
+                          handle: supplier_icon
+                          field:
+                            type: assets
+                            max_files: 1
+                            container: assets
+                            display: 'Supplier icon'
+                        -
+                          handle: supplier_name
+                          field:
+                            type: text
+                            display: 'Supplier Name'
+                        -
+                          handle: supplier_url
+                          field:
+                            type: link
+                            display: 'Supplier URL'
+                        -
+                          handle: supplier_details
+                          field:
+                            type: textarea
+                            display: 'supplier details'
+      -
+        display: Galleries
+        fields:
+          -
+            handle: gallery_images
+            field:
+              type: assets
+              container: assets
+              display: Gallery
+              mode: grid
+              max_files: 200
   sidebar:
     display: Sidebar
     sections:
