@@ -2,7 +2,9 @@ title: pages
 template: pages/index
 layout: layout
 revisions: false
-route: /
+route: /{{slug}}
+structure:
+  root: true
 sort_dir: asc
 date_behavior:
   past: public

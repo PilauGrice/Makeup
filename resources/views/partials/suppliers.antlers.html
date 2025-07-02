@@ -1,10 +1,17 @@
+ <div id="suppliers" class="px-20">
+        <h1 class="sm:text-3xl lg:text-4xl md:text-4xl  font-medium title-font mb-2 text-gray-900">Suppliers</h1>
+        <div class="h-1 w-20 bg-brandPink rounded"></div>
+</div>
+
 <section class="text-gray-600 body-font">
-  <div class="container px-5 py-24 mx-auto flex flex-wrap">
+  <div class="px-20 py-24 mx-auto flex flex-wrap">
 
-    <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
+    <div class="flex flex-col flex-wrap  mb-10 lg:w-1/2 lg:text-left text-center">
+     
 
+   
 {{ suppliers }}
-        <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
+        <div class="w-12 h-12 pt-10 inline-flex items-center justify-center rounded-full text-indigo-500 mb-5">
            {{ if supplier_icon }}
       <img  src="{{ supplier_icon:url }}" alt="{{ title }}">
     {{ /if }}

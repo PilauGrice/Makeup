@@ -9,10 +9,33 @@
   --color-twoPink:#fce6e6;
   --color-darkPink:#A3004C;
   --breakpoint-lg: 991px;
+  --breakpoint-1lg: 1200px;
     /* ... */
 }
 
+#scrollTopBtn {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 1000;
+  font-size: 18px;
+  border: none;
+  border-radius: 100%;
+  padding: 8px 16px;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
 
+#scrollTopBtn.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
 
 .bg-hero-right {
   background-image: var(--hero-right);

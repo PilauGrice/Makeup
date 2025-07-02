@@ -13,7 +13,7 @@ bottom_text: |-
 
   I'm a certified MUA through the International Open Academy, and a proud HD Brows professional since 2017. Beyond the beauty chair, I run bimonthly masterclasses for Girl Meets Brush and volunteer with Look Good Feel Better at Northampton General Hospital, helping women rediscover their confidence through makeup during their most vulnerable moments.
 updated_by: 3969b04d-cb2e-462f-a4db-89c4bd41cec8
-updated_at: 1750967158
+updated_at: 1751050731
 rightbg: feather-8762426_1280-(1).jpg
 herotext1: 'A Brush Of'
 herotext2: Perfection
@@ -351,14 +351,6 @@ suppliers:
     type: service
     enabled: true
   -
-    id: mcdcssik
-    supplier_icon: icons/hairstylist.png
-    supplier_name: 'Hair By Hols'
-    supplier_url: 'https://instagram.com/hairbyhols'
-    supplier_details: 'With over a decade of experience, Hols brings a fresh, relaxed energy to bridal styling. From soft glam to boho braids, she creates looks that feel like you—just elevated. One-to-one appointments in a calm, welcoming space.'
-    type: service
-    enabled: true
-  -
     id: mcdctu70
     supplier_name: 'Angela Jane Cake Design'
     supplier_url: 'https://angelajanecakedesign.co.uk/'
@@ -374,111 +366,10 @@ suppliers:
     supplier_details: 'From invitations to signage, Wedding Beautifuls creates bespoke stationery that feels like you. Carolyn’s designs are thoughtful, elegant, and full of personality—perfect for couples who want every detail to tell their story.'
     type: service
     enabled: true
-gallery_images:
-  - gallery/048cf40e-45a6-45b5-a4c4-0d49280800c5-scaled-1-681x1024.jpeg
-  - gallery/074030f0-63f4-49b9-81fe-83b311b517f7-scaled-1-684x1024.jpeg
-  - gallery/0805dc1e-af57-4e75-8bd9-15ad35618756-1024x919.jpeg
-  - gallery/0805dc1e-af57-4e75-8bd9-15ad35618756.jpeg
-  - gallery/2d4ab092-3979-4bc7-a3aa-a19786a81b1e-768x1024.jpeg
-  - gallery/2d4ab092-3979-4bc7-a3aa-a19786a81b1e.jpeg
-  - gallery/2d8d2e35-36ea-4cba-9a8d-48a24e7c0a63-819x1024.jpeg
-  - gallery/2df6f63b-660e-4e18-b945-fbc11191860d-1024x919.jpeg
-  - gallery/2df6f63b-660e-4e18-b945-fbc11191860d.jpeg
-  - gallery/2f03f363-b90f-4ebf-8f63-0423d4ae91de-1024x683.jpeg
-  - gallery/4064ffd5-e83e-4b2b-9e1d-bd729a289bb7-scaled-1-684x1024.jpeg
-  - gallery/4145c202-e1d1-4ec6-a601-918c94d23447-scaled-1-681x1024.jpeg
-  - gallery/4434908f-a391-471b-9c4d-9bcb7f067fe4-576x1024.jpeg
-  - gallery/4434908f-a391-471b-9c4d-9bcb7f067fe4.jpeg
-  - gallery/4c022829-3f25-4ab0-a82c-e1bd1c49e49a-1.jpeg
-  - gallery/4c022829-3f25-4ab0-a82c-e1bd1c49e49a.jpeg
-  - gallery/52256740-2ea4-4a6e-aaa4-ca978d48d139.jpeg
-  - gallery/61b6e768-c95d-4d67-8551-9f655ee0c26c-491x1024.jpg
-  - gallery/6373a03f-f054-464c-80f4-d4e67fee7b48-scaled-1-684x1024.jpeg
-  - gallery/6685ec4f-8604-4215-92ec-375c9d921210-681x1024.jpeg
-  - gallery/72dad3a2-0b6a-4507-9318-a978eb088ea3-scaled-1-681x1024.jpeg
-  - gallery/740ff4c3-79da-4a8f-9105-31127c7361c5-scaled-1-681x1024.jpeg
-  - gallery/7d64cbfb-ee85-4f78-9492-4282d00df19d-scaled-1-682x1024.jpeg
-  - gallery/7f52245d-7e75-437b-a7b8-9be2b76cd764-681x1024.jpeg
-  - gallery/865a3916-1c1f-46a3-a2d6-28bb2506d624-scaled-1-684x1024.jpeg
-  - gallery/865a3916-1c1f-46a3-a2d6-28bb2506d624-scaled-1.jpeg
-  - gallery/9000b86c-7aef-4100-ad5b-fd7524a0a4c1-scaled-1-819x1024.jpeg
-  - gallery/9240c28a-4d88-48cf-a6ba-5f3dab86cd57-scaled-1.jpeg
-  - gallery/9307df2a-d8b7-4fa7-a7c4-9dfaeb3390ad-576x1024.jpeg
-  - gallery/9307df2a-d8b7-4fa7-a7c4-9dfaeb3390ad.jpeg
-  - gallery/956576d7-62a8-4548-b8dd-634d802541d6-scaled-1-681x1024.jpeg
-  - gallery/99daa833-dc5d-45b2-9490-cc2a93dca74d-1.jpg
-  - gallery/9a5fd968-6fbd-4ddc-a90b-5335ca41e458-1024x1024.jpg
-  - gallery/a31fbc3e-306f-47c0-aae1-f58f865ab53f-scaled-1-684x1024.jpeg
-  - gallery/a32a96d2-2855-4c9f-a55c-0462bfbf2b6b-576x1024.jpeg
-  - gallery/action-bridal-576x1024.png
-  - gallery/action-bridal-party-2-1024x684.jpg
-  - gallery/action-london-fashion-week-e1570310656630.jpg
-  - gallery/action-portfolio-female-model-1024x682.jpg
-  - gallery/action-portfolio-shot-1024x1024.jpg
-  - gallery/action-portfolio-shot-760x390-1.jpg
-  - gallery/action-touch-ups-bridal-party-1-1024x684.jpg
-  - gallery/bfbbbe00-3400-489b-a646-8c75edff9c56.jpg
-  - gallery/c9ec3781-130e-47d9-ab27-ba18c7432357-scaled-1-684x1024.jpeg
-  - gallery/clean-beauty-magazine-work-688x1024.jpg
-  - gallery/creative-1-1.jpg
-  - gallery/creative-e1570311737996-768x1024.jpg
-  - gallery/creative-work-1-1024x895.jpg
-  - gallery/creative-work-1-760x390-1-(1).jpg
-  - gallery/creative-work-1-760x390-1-480x246.jpg
-  - gallery/d975bc4c-5402-4b0d-8029-35f4c931bccd-760x390-1.jpeg
-  - gallery/df4a484d-b68d-4f59-a1bd-295c6626d88a-681x1024.jpeg
-  - gallery/e0249cc3-097e-438d-ab1c-aad76e8da575-scaled-1-684x1024.jpeg
-  - gallery/e7bc5853-5666-4f34-846a-b6edfb7242b1-scaled-1-684x1024.jpeg
-  - gallery/eb6fec0f-5045-4d5b-9ac1-715e43d8c638-681x1024.jpeg
-  - gallery/eb6fec0f-5045-4d5b-9ac1-715e43d8c638.jpeg
-  - gallery/ef9eb063-67a4-4d2b-831e-774da3be8c4e-681x1024.jpeg
-  - gallery/f67c3cb7-fb41-4fbe-b7f9-626bde97915d-681x1024.jpeg
-  - gallery/f67c3cb7-fb41-4fbe-b7f9-626bde97915d.jpeg
-  - gallery/fd1254ec-41aa-4cc3-8d34-70e64b83a5da-scaled-1-682x1024.jpeg
-  - gallery/fd1254ec-41aa-4cc3-8d34-70e64b83a5da-scaled-1.jpeg
-  - gallery/img_0499.jpg
-  - gallery/img_1423-682x1024.jpg
-  - gallery/img_1807.jpg
-  - gallery/img_1808.jpg
-  - gallery/img_1966-760x390-1.png
-  - gallery/img_2045-1024x683.jpg
-  - gallery/img_3307-760x390-1-(1).jpg
-  - gallery/img_3307-760x390-1-480x246.jpg
-  - gallery/img_3310-scaled-1-768x1024.jpg
-  - gallery/img_6457-scaled-1-684x1024.jpeg
-  - gallery/img_6469-scaled-1-1024x681.jpeg
-  - gallery/img_6469-scaled-1-1280x852.jpeg
-  - gallery/img_6469-scaled-1-480x319.jpeg
-  - gallery/img_6469-scaled-1-980x652.jpeg
-  - gallery/img_6469-scaled-1.jpeg
-  - gallery/img_6474-scaled-1-819x1024.jpeg
-  - gallery/img_7565-scaled-1-681x1024.jpg
-  - gallery/img_7566-scaled-1-681x1024.jpg
-  - gallery/img_7567-scaled-1-819x1024.jpg
-  - gallery/img_7568-scaled-1-819x1024.jpg
-  - gallery/img_7569-scaled-1-819x1024.jpg
-  - gallery/img_7573-scaled-1-684x1024.jpg
-  - gallery/img_7574-scaled-1-819x1024.jpg
-  - gallery/img_7712-scaled-1-681x1024.jpeg
-  - gallery/img_7713-scaled-1-1024x684.jpeg
-  - gallery/img_7713-scaled-1.jpeg
-  - gallery/img_7714-scaled-1-1024x684.jpeg
-  - gallery/img_7715-scaled-1-1024x684.jpeg
-  - gallery/img_7716-scaled-1-684x1024.jpeg
-  - gallery/img_7716-scaled-1.jpeg
-  - gallery/img_7717-scaled-1-684x1024.jpeg
-  - gallery/london-fashion-week-1-768x1024.png
-  - gallery/london-fashion-week1-760x390-1.png
-  - gallery/male-model-portfolio-work-1024x682.jpg
-  - gallery/occasion-makeup-1-767x1024.jpg
-  - gallery/occasion-makeup-3-e1570311786338-760x390-1.jpg
-  - gallery/occasion-makeup-3-e1570311786338-768x1024.jpg
-  - gallery/occasion-makeup-4-1024x1024.jpg
-  - gallery/occasion-makeup-5.jpg
-  - gallery/occasion-makeup-6-682x1024.jpg
-  - gallery/occasion-makeup-e1570311759814-768x1024.jpg
-  - gallery/occasion-makeup3.jpg
-  - gallery/portfolio-female-model--682x1024.jpg
-  - gallery/received_1255732944816575-scaled-1-1024x682.jpeg
-  - gallery/received_2964393483623858-scaled-1-682x1024.jpeg
+preview_pic_1: gallery_images/048cf40e-45a6-45b5-a4c4-0d49280800c5-scaled-1-681x1024.jpeg
+preview_pic_2: gallery_images/creative-work-1-1024x895.jpg
+preview_pic_3: gallery_images/img_2045-1024x683.jpg
+preview_pic_4: gallery_images/action-touch-ups-bridal-party-1-1024x684.jpg
+preview_pic_5: gallery_images/img_7568-scaled-1-819x1024.jpg
+preview_pic_6: gallery_images/action-portfolio-female-model-1024x682.jpg
 ---
