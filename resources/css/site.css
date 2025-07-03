@@ -5,7 +5,7 @@
 
 @theme {
   --color-brandPink: #dc9eab;
-  --hero-right: url('/assets/darkFeather.jpg');
+  --hero-right: url('/assets/darkfeather.jpg');
   --color-twoPink:#fce6e6;
   --color-darkPink:#A3004C;
   --breakpoint-lg: 991px;
