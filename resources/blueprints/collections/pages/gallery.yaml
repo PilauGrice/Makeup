@@ -20,6 +20,8 @@ tabs:
               display: Gallery_Images
               mode: grid
               max_files: 200
+              fieldset: focal_point   # <-- link the asset fieldset here
+
   sidebar:
     display: Sidebar
     sections:
@@ -40,3 +42,9 @@ tabs:
               max_items: 1
               listable: false
               localizable: true
+
+          - handle: template
+            field:
+              type: template
+              display: Template
+

@@ -4,73 +4,13 @@ tabs:
     display: Main
     sections:
       -
+        display: Services
         fields:
           -
             handle: title
             field:
               type: text
               required: true
-              validate:
-                - required
-          -
-            handle: avatar
-            field:
-              type: assets
-              max_files: 1
-              container: assets
-              folder: avatars
-          -
-            handle: myName
-            field:
-              type: text
-              width: 50
-              display: myName
-          -
-            handle: jobTitle
-            field:
-              type: text
-              width: 50
-              validate:
-                - required
-              display: jobTitle
-          -
-            handle: link1
-            field:
-              type: link
-              width: 33
-          -
-            handle: link2
-            field:
-              type: link
-              width: 33
-          -
-            handle: link3
-            field:
-              type: link
-              width: 33
-          -
-            handle: bottom_text
-            field:
-              type: textarea
-              display: bottom_text
-          -
-            handle: herotext1
-            field:
-              type: text
-              display: herotext1
-          -
-            handle: herotext2
-            field:
-              type: text
-              display: herotext2
-          -
-            handle: heropara
-            field:
-              type: textarea
-              display: heropara
-      -
-        display: Services
-        fields:
           -
             handle: services
             field:
@@ -209,3 +149,12 @@ tabs:
               type: slug
               localizable: true
               validate: 'max:200'
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - pages
+              max_items: 1
+              listable: false
+              localizable: true

@@ -6,5 +6,3 @@ use Illuminate\Support\Facades\Route;
 //    'title' => 'Example'
 // ]);
 
-
-Route::statamic('/gallery', 'templates.pages.gallery')->name('gallery');

@@ -1,0 +1,69 @@
+{{header_section}}
+<div class="flex flex-col lg:flex-row h-screen">
+  <!-- LEFT Column (Gradient Background) -->
+  <div class="w-full lg:w-1/2 flex flex-col items-center justify-start space-y-6 px-6 pb-6 lg:px-20 pt-8 bg-[repeating-linear-gradient(90deg,#4a4a4a,#f9dcdc_9px,#e8bcbc_9px,#e8bcbc_10px,#fce6e6_10px,#fce6e6_19px,#e8bcbc_19px,#e8bcbc_20px)]">
+    
+    <!-- Avatar -->
+    <div>
+      <img src="{{avatar}}" alt="{{ myName }}" class="w-64 h-64 mx-auto rounded-full border-4 border-white shadow-md" />
+    </div>
+    <!-- Name & Title -->
+    <div class="border-4 border-brandPink shadow-md px-10 py-6 bg-brandPink rounded-3xl text-center">
+      <h2 class="text-pink-800 font-semibold text-lg">{{ myName }}</h2>
+      <p class="text-pink-600 text-sm">{{ jobTitle }}</p>
+    </div>
+
+    <!-- Icon Buttons -->
+    <div class="flex justify-center gap-4">
+      <a href="{{ link1 }}" class="w-12 h-12 flex items-center justify-center rounded-full bg-white shadow icon-hover">
+        <!-- SVG 1 -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" class="w-10 h-10">
+          <circle cx="25" cy="25" r="25" fill="#DC9EAB" />
+          <path d="M39,17h-3c-2.145,0-3,0.504-3,2v3h6l-1,6h-5v20h-7V28h-3v-6h3v-3c0-4.677,1.581-8,7-8c2.902,0,6,1,6,1V17z" fill="#ffffff" />
+        </svg>
+      </a>
+      <a href="{{ link2 }}" class="w-12 h-12 flex items-center justify-center rounded-full bg-white shadow icon-hover">
+        <!-- SVG 2 -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" class="w-10 h-10">
+  <circle cx="25" cy="25" r="25" fill="#DC9EAB" />
+  <path fill="#ffffff" d="M32 16h-14c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V18c0-1.1-.9-2-2-2zm-7 3.8a4.2 4.2 0 1 1 0 8.4 4.2 4.2 0 0 1 0-8.4zm7.2 11.7a.5.5 0 0 1-.5.5H18.3a.5.5 0 0 1-.5-.5V21h1.9a5.8 5.8 0 1 0 10.6 0h1.9v10.5zm.1-13.3a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0z"/>
+</svg>
+      </a>
+      <a href="{{ link3 }}" class="w-12 h-12 flex items-center justify-center rounded-full bg-white shadow icon-hover">
+        <!-- SVG 3 -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" class="w-10 h-10">
+          <circle cx="25" cy="25" r="25" fill="#DC9EAB" />
+          <path d="M10 18c0-1.1.9-2 2-2h26c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2H12c-1.1 0-2-.9-2-2V18zm2.5 0l12.5 9 12.5-9H12.5z" fill="#ffffff" />
+        </svg>
+      </a>
+    </div>
+
+    <!-- Bottom Button -->
+    <div class="border-4 border-brandPink shadow-md p-4 bg-white rounded-3xl text-center">
+      <button>{{ bottom_text }}</button>
+    </div>
+  </div>
+
+  <!-- RIGHT Column (Hero Image Background) -->
+  <div class="w-full lg:w-3/4 flex items-center order-first lg:order-none justify-center text-center px-6  bg-hero-right bg-cover h-screen">
+    <div class="flex flex-col items-center max-w-xl">
+      <h1 class="title-font text-4xl sm:text-5xl font-medium text-brandPink mb-4">
+        {{ herotext1 }}<br class="hidden lg:inline-block">{{ herotext2 }}
+      </h1>
+      <p class="mb-8 leading-relaxed text-white">{{ heropara }}</p>
+      <div class="flex justify-center flex-wrap gap-4">
+        <a href="#footer">
+          <button class="inline-flex text-white hover:text-black bg-brandPink border-0 py-2 px-6 focus:outline-none hover:bg-twoPink rounded text-lg">
+            Book An Appointment
+          </button>
+        </a>
+        <a href="{{ portfolio }}">
+          <button class="inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+            View My Portfolio
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+{{/header_section}}

@@ -3,24 +3,19 @@ id: d781173e-506c-4621-9404-799dbe45c909
 blueprint: gallery
 title: gallery
 updated_by: 3969b04d-cb2e-462f-a4db-89c4bd41cec8
-updated_at: 1751053647
+updated_at: 1751549737
 gallery_images:
   - gallery_images/048cf40e-45a6-45b5-a4c4-0d49280800c5-scaled-1-681x1024.jpeg
   - gallery_images/074030f0-63f4-49b9-81fe-83b311b517f7-scaled-1-684x1024.jpeg
   - gallery_images/0805dc1e-af57-4e75-8bd9-15ad35618756-1024x919.jpeg
-  - gallery_images/0805dc1e-af57-4e75-8bd9-15ad35618756.jpeg
   - gallery_images/2d4ab092-3979-4bc7-a3aa-a19786a81b1e-768x1024.jpeg
-  - gallery_images/2d4ab092-3979-4bc7-a3aa-a19786a81b1e.jpeg
   - gallery_images/2d8d2e35-36ea-4cba-9a8d-48a24e7c0a63-819x1024.jpeg
   - gallery_images/2df6f63b-660e-4e18-b945-fbc11191860d-1024x919.jpeg
-  - gallery_images/2df6f63b-660e-4e18-b945-fbc11191860d.jpeg
   - gallery_images/2f03f363-b90f-4ebf-8f63-0423d4ae91de-1024x683.jpeg
   - gallery_images/4064ffd5-e83e-4b2b-9e1d-bd729a289bb7-scaled-1-684x1024.jpeg
   - gallery_images/4145c202-e1d1-4ec6-a601-918c94d23447-scaled-1-681x1024.jpeg
   - gallery_images/4434908f-a391-471b-9c4d-9bcb7f067fe4-576x1024.jpeg
-  - gallery_images/4434908f-a391-471b-9c4d-9bcb7f067fe4.jpeg
   - gallery_images/4c022829-3f25-4ab0-a82c-e1bd1c49e49a-1.jpeg
-  - gallery_images/4c022829-3f25-4ab0-a82c-e1bd1c49e49a.jpeg
   - gallery_images/52256740-2ea4-4a6e-aaa4-ca978d48d139.jpeg
   - gallery_images/61b6e768-c95d-4d67-8551-9f655ee0c26c-491x1024.jpg
   - gallery_images/6373a03f-f054-464c-80f4-d4e67fee7b48-scaled-1-684x1024.jpeg
@@ -30,13 +25,10 @@ gallery_images:
   - gallery_images/7d64cbfb-ee85-4f78-9492-4282d00df19d-scaled-1-682x1024.jpeg
   - gallery_images/7f52245d-7e75-437b-a7b8-9be2b76cd764-681x1024.jpeg
   - gallery_images/865a3916-1c1f-46a3-a2d6-28bb2506d624-scaled-1-684x1024.jpeg
-  - gallery_images/865a3916-1c1f-46a3-a2d6-28bb2506d624-scaled-1.jpeg
   - gallery_images/9000b86c-7aef-4100-ad5b-fd7524a0a4c1-scaled-1-819x1024.jpeg
   - gallery_images/9240c28a-4d88-48cf-a6ba-5f3dab86cd57-scaled-1.jpeg
   - gallery_images/9307df2a-d8b7-4fa7-a7c4-9dfaeb3390ad-576x1024.jpeg
-  - gallery_images/9307df2a-d8b7-4fa7-a7c4-9dfaeb3390ad.jpeg
   - gallery_images/956576d7-62a8-4548-b8dd-634d802541d6-scaled-1-681x1024.jpeg
-  - gallery_images/99daa833-dc5d-45b2-9490-cc2a93dca74d-1.jpg
   - gallery_images/9a5fd968-6fbd-4ddc-a90b-5335ca41e458-1024x1024.jpg
   - gallery_images/a31fbc3e-306f-47c0-aae1-f58f865ab53f-scaled-1-684x1024.jpeg
   - gallery_images/a32a96d2-2855-4c9f-a55c-0462bfbf2b6b-576x1024.jpeg
@@ -49,21 +41,19 @@ gallery_images:
   - gallery_images/action-touch-ups-bridal-party-1-1024x684.jpg
   - gallery_images/bfbbbe00-3400-489b-a646-8c75edff9c56.jpg
   - gallery_images/c9ec3781-130e-47d9-ab27-ba18c7432357-scaled-1-684x1024.jpeg
+  - gallery_images/childrens-stage-makeup-1-1-760x390-1-480x246.jpg
   - gallery_images/clean-beauty-magazine-work-688x1024.jpg
   - gallery_images/creative-1-1.jpg
   - gallery_images/creative-e1570311737996-768x1024.jpg
   - gallery_images/creative-work-1-1024x895.jpg
-  - gallery_images/creative-work-1-760x390-1-480x246.jpg
   - gallery_images/d975bc4c-5402-4b0d-8029-35f4c931bccd-760x390-1.jpeg
+  - gallery_images/dd859101-756a-4fc4-a09f-32593f7f5dd2-760x390-1-480x246.jpg
   - gallery_images/df4a484d-b68d-4f59-a1bd-295c6626d88a-681x1024.jpeg
   - gallery_images/e0249cc3-097e-438d-ab1c-aad76e8da575-scaled-1-684x1024.jpeg
   - gallery_images/e7bc5853-5666-4f34-846a-b6edfb7242b1-scaled-1-684x1024.jpeg
   - gallery_images/eb6fec0f-5045-4d5b-9ac1-715e43d8c638-681x1024.jpeg
-  - gallery_images/eb6fec0f-5045-4d5b-9ac1-715e43d8c638.jpeg
   - gallery_images/ef9eb063-67a4-4d2b-831e-774da3be8c4e-681x1024.jpeg
   - gallery_images/f67c3cb7-fb41-4fbe-b7f9-626bde97915d-681x1024.jpeg
-  - gallery_images/f67c3cb7-fb41-4fbe-b7f9-626bde97915d.jpeg
-  - gallery_images/fd1254ec-41aa-4cc3-8d34-70e64b83a5da-scaled-1-682x1024.jpeg
   - gallery_images/fd1254ec-41aa-4cc3-8d34-70e64b83a5da-scaled-1.jpeg
   - gallery_images/img_0499.jpg
   - gallery_images/img_1423-682x1024.jpg
@@ -72,29 +62,20 @@ gallery_images:
   - gallery_images/img_1966-760x390-1.png
   - gallery_images/img_2045-1024x683.jpg
   - gallery_images/img_3307-760x390-1-(1).jpg
-  - gallery_images/img_3307-760x390-1-480x246.jpg
   - gallery_images/img_3310-scaled-1-768x1024.jpg
   - gallery_images/img_6457-scaled-1-684x1024.jpeg
   - gallery_images/img_6469-scaled-1-1024x681.jpeg
-  - gallery_images/img_6469-scaled-1-1280x852.jpeg
-  - gallery_images/img_6469-scaled-1-480x319.jpeg
-  - gallery_images/img_6469-scaled-1-980x652.jpeg
-  - gallery_images/img_6469-scaled-1.jpeg
   - gallery_images/img_6474-scaled-1-819x1024.jpeg
   - gallery_images/img_7565-scaled-1-681x1024.jpg
   - gallery_images/img_7566-scaled-1-681x1024.jpg
-  - gallery_images/img_7567-scaled-1-819x1024.jpg
   - gallery_images/img_7568-scaled-1-819x1024.jpg
   - gallery_images/img_7569-scaled-1-819x1024.jpg
-  - gallery_images/img_7573-scaled-1-684x1024.jpg
   - gallery_images/img_7574-scaled-1-819x1024.jpg
   - gallery_images/img_7712-scaled-1-681x1024.jpeg
-  - gallery_images/img_7713-scaled-1-1024x684.jpeg
   - gallery_images/img_7713-scaled-1.jpeg
   - gallery_images/img_7714-scaled-1-1024x684.jpeg
-  - gallery_images/img_7715-scaled-1-1024x684.jpeg
+  - gallery_images/img_7715-760x390-1-480x246.jpg
   - gallery_images/img_7716-scaled-1-684x1024.jpeg
-  - gallery_images/img_7716-scaled-1.jpeg
   - gallery_images/img_7717-scaled-1-684x1024.jpeg
   - gallery_images/london-fashion-week-1-768x1024.png
   - gallery_images/london-fashion-week1-760x390-1.png
@@ -105,9 +86,11 @@ gallery_images:
   - gallery_images/occasion-makeup-4-1024x1024.jpg
   - gallery_images/occasion-makeup-5.jpg
   - gallery_images/occasion-makeup-6-682x1024.jpg
+  - gallery_images/occasion-makeup-6-760x390-1-480x246.jpg
   - gallery_images/occasion-makeup-e1570311759814-768x1024.jpg
   - gallery_images/occasion-makeup3.jpg
   - gallery_images/portfolio-female-model--682x1024.jpg
   - gallery_images/received_1255732944816575-scaled-1-1024x682.jpeg
   - gallery_images/received_2964393483623858-scaled-1-682x1024.jpeg
+template: templates/pages/gallery
 ---

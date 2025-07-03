@@ -1,0 +1,11 @@
+title: 'Focus Point'
+sections:
+  main:
+    fields:
+      -
+        handle: focal_point
+        field:
+          type: text
+          display: 'Focal Point'
+          instructions: 'Enter CSS object-position value (e.g. "top", "center", "50% 30%")'
+          default: center

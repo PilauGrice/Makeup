@@ -13,7 +13,7 @@ bottom_text: |-
 
   I'm a certified MUA through the International Open Academy, and a proud HD Brows professional since 2017. Beyond the beauty chair, I run bimonthly masterclasses for Girl Meets Brush and volunteer with Look Good Feel Better at Northampton General Hospital, helping women rediscover their confidence through makeup during their most vulnerable moments.
 updated_by: 3969b04d-cb2e-462f-a4db-89c4bd41cec8
-updated_at: 1751050731
+updated_at: 1751535339
 rightbg: feather-8762426_1280-(1).jpg
 herotext1: 'A Brush Of'
 herotext2: Perfection
@@ -44,7 +44,7 @@ services:
     enabled: true
   -
     id: mcatcp8j
-    img: img_7715-760x390-1-480x246.jpg
+    img: gallery_images/img_7715-760x390-1-480x246.jpg
     title: 'Bridal Makeup'
     para:
       -
@@ -61,7 +61,7 @@ services:
     enabled: true
   -
     id: mcatfbqd
-    img: 9a5fd968-6fbd-4ddc-a90b-5335ca41e458-760x390-1-480x246.jpg
+    img: gallery_images/9a5fd968-6fbd-4ddc-a90b-5335ca41e458-760x390-1-480x246.jpg
     title: 'Occasion Makeup/Multiple Bridesmaids'
     duration: 'Duration: 1 Hour +'
     cost: 'Cost: £45 Per Person'
@@ -69,7 +69,7 @@ services:
     enabled: true
   -
     id: mcathpy2
-    img: occasion-makeup-6-760x390-1-480x246.jpg
+    img: gallery_images/occasion-makeup-6-760x390-1-480x246.jpg
     title: 'Personal Make-Over'
     para:
       -
@@ -86,7 +86,7 @@ services:
     enabled: true
   -
     id: mcatjfgl
-    img: dd859101-756a-4fc4-a09f-32593f7f5dd2-760x390-1-480x246.jpg
+    img: gallery_images/dd859101-756a-4fc4-a09f-32593f7f5dd2-760x390-1-480x246.jpg
     title: Trial
     para:
       -
@@ -103,7 +103,7 @@ services:
     enabled: true
   -
     id: mcatjukp
-    img: childrens-stage-makeup-1-1-760x390-1-480x246.jpg
+    img: gallery_images/childrens-stage-makeup-1-1-760x390-1-480x246.jpg
     title: 'Childrens Show/Stage Makeup'
     para:
       -
@@ -193,93 +193,8 @@ services:
     enabled: true
   -
     id: mcatl5g7
-    img: adult-480x246.jpg
-    title: 'Adult Pamper Party'
-    para:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Myself and Atlantis Beauty and Aesthetics are so pleased to share with you that we are joining forces to provide you with the ultimate pamper party experience and night out prep!'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: '💍 Hen Parties '
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: '👑 Proms '
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: '🥳 Birthdays '
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: '🥂 Girls night out/in '
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: '👰‍♀️ Even Your Wedding DayYou name it we can do it!'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'With packages to suit any budget, they can include:'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Hair '
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: Makeup
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'BIAB Nails (Hands & Feet)'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Nibbles & Treats '
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Glass of Bubbly (18+ only)'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'We guarantee a fun party experience with the best professionals around 😍'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'We can’t wait to get you ready for that big night out or just give you the pamper you deserve with your pals!'
+    img: creative-work-1-760x390-1-480x246.jpg
+    title: 'Hair and Makeup Package'
     cost: 'Contact Me For Details'
     type: service
     enabled: true
@@ -314,7 +229,7 @@ supplier_details:
     supplier_url: test
     type: new_set
     enabled: true
-supplier_hero: 375c7842-cc2e-4b40-8e9c-c418ec1c88f5-980x1307.jpg
+supplier_hero: gallery_images/375c7842-cc2e-4b40-8e9c-c418ec1c88f5-980x1307.jpg
 supplier:
   -
     id: mcce6u66

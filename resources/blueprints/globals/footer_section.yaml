@@ -1,0 +1,16 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: footerheader
+            field:
+              type: text
+              display: FooterHeader
+          -
+            handle: footerpara
+            field:
+              type: textarea
+              display: Footerpara

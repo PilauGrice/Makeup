@@ -1,0 +1,12 @@
+title: Header_section
+data:
+  title: '#'
+  avatar: avatars/new-project.jpg
+  myName: Patricia
+  jobTitle: 'Makeup Artist'
+  link1: 'https://www.facebook.com/makeupwithpatricia/?_rdr'
+  link2: 'https://www.instagram.com/makeupwithpatricia/'
+  link3: 'mailto:makeup@makeupwithpatricia.co.uk'
+  bottom_text: 'Hello, my name is Patricia. I am a wife to a supportive husband and a mummy to 3 beautiful girls. I came into makeup later on I my life and have been working as a MUA since November 2016. I have always had a passion for creating my own style and makeup since I was a little girl but this is when I decided to turn my hobby into a professional business and share what I love with other people.'
+  herotext1: 'A Brush'
+  herotext2: 'Of Perfection'

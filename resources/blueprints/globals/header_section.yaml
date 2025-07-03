@@ -1,0 +1,71 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              validate:
+                - required
+          -
+            handle: avatar
+            field:
+              type: assets
+              container: assets
+              folder: avatars
+              max_files: 1
+          -
+            handle: myName
+            field:
+              type: text
+              width: 50
+              display: myName
+          -
+            handle: jobTitle
+            field:
+              type: text
+              width: 50
+              display: jobTitle
+              validate:
+                - required
+          -
+            handle: link1
+            field:
+              type: text
+              width: 33
+              display: 'Link 1'
+          -
+            handle: link2
+            field:
+              type: text
+              width: 33
+              display: 'Link 2'
+          -
+            handle: link3
+            field:
+              type: text
+              width: 33
+              display: 'Link 3'
+          -
+            handle: bottom_text
+            field:
+              type: textarea
+              display: bottom_text
+          -
+            handle: herotext1
+            field:
+              type: text
+              display: herotext1
+          -
+            handle: herotext2
+            field:
+              type: text
+              display: herotext2
+          -
+            handle: heropara
+            field:
+              type: textarea
+              display: heropara

@@ -14,7 +14,24 @@
     </a>
 
     <!-- Navigation -->
-    <nav class="hidden space-x-6 text-sm font-semibold uppercase text-gray-700 sm:flex">
+    <nav class="text-center space-x-6 text-sm font-semibold uppercase text-gray-700 sm:flex">
+
+ {{ if segment_1 == 'gallery' }}
+
+ {{nav:gallery}}
+
+         <a
+          href="{{ url }}"
+          class="hover:text-brandPink transition  hover:underline-offset-8 hover:underline
+ {{ if is_current }}text-brandPink font-bold underline-offset-8{{ /if }}"
+        >
+          {{ title }}
+        </a>
+
+ {{/nav:gallery}}
+
+
+{{ else }}
       {{ nav:main }}
         <a
           href="{{ url }}"
@@ -24,6 +41,8 @@
           {{ title }}
         </a>
       {{ /nav:main }}
+
+      {{ /if }}
     </nav>
 
     <!-- Contact Button -->

@@ -1,22 +1,22 @@
-{{ extends "layout" }}
-
-{{ section:content }}
-  <section class="w-full mx-auto px-20 py-12">
-    <div class="lg:w-1/2 w-full mb-6 lg:mb-5">
-      <h1 class="sm:text-3xl lg:text-4xl md:text-4xl font-medium title-font mb-2 text-gray-900">
-        Portfolio
-      </h1>
-      <div class="h-1 w-20 bg-brandPink rounded"></div>
-    </div>
-
-    <h1 class="text-2xl mb-4">Gallery Page</h1>
-
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-      {{ gallery_images }}
-        <a data-fancybox="gallery" href="{{ url }}">
-          <img src="{{ url }}" alt="{{ alt }}" class="w-full h-auto rounded shadow-md">
-        </a>
-      {{ /gallery_images }}
-    </div>
-  </section>
-{{ /section:content }}
+<section class="w-full mx-auto px-20 py-12">
+  <div class="lg:w-1/2 w-full mb-6 lg:mb-5">
+    <h1 class="sm:text-3xl lg:text-4xl md:text-4xl font-medium title-font mb-2 text-gray-900">
+      Portfolio
+    </h1>
+    <div class="h-1 w-20 bg-brandPink rounded"></div>
+  </div>
+  
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+    {{ gallery_images }}
+      <a data-fancybox="gallery" href="{{ url }}">
+        <img 
+          src="{{ url }}" 
+          alt="{{ alt }}" 
+          class="w-full h-64 object-cover rounded shadow-md"
+          style="object-position: {{ focus_css ?: 'center' }}"
+          
+        >
+      </a>
+    {{ /gallery_images }}
+  </div>
+</section>
