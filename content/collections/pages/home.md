@@ -13,7 +13,7 @@ bottom_text: |-
 
   I'm a certified MUA through the International Open Academy, and a proud HD Brows professional since 2017. Beyond the beauty chair, I run bimonthly masterclasses for Girl Meets Brush and volunteer with Look Good Feel Better at Northampton General Hospital, helping women rediscover their confidence through makeup during their most vulnerable moments.
 updated_by: 3969b04d-cb2e-462f-a4db-89c4bd41cec8
-updated_at: 1751571424
+updated_at: 1751571684
 rightbg: feather-8762426_1280-(1).jpg
 herotext1: 'A Brush Of'
 herotext2: Perfection
@@ -205,7 +205,7 @@ services:
           -
             type: text
             text: 'Elevate Your Look with Our Exclusive Hair and Makeup Package! Why have just one artist when you can have 2! Are you ready to shine for a special occasion or simply want to treat yourself to a luxurious makeover? Look no further! Our expertly curated hair and makeup packages are designed to enhance your natural beauty and give you the confidence to dazzle!'
-    duration: 'Duration: Varies'
+    duration: 'Duration: 2 hours'
 supplierimg: 375c7842-cc2e-4b40-8e9c-c418ec1c88f5-980x1307.jpg
 supimage:
   - 375c7842-cc2e-4b40-8e9c-c418ec1c88f5-980x1307.jpg
