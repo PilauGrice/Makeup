@@ -1,16 +1,16 @@
 {
   "resources/css/site.css": {
-    "file": "assets/site-lFUEESd0.css",
+    "file": "assets/site-B69HKyYP.css",
     "src": "resources/css/site.css",
     "isEntry": true
   },
   "resources/js/site.js": {
-    "file": "assets/site-D46GpJDp.js",
+    "file": "assets/site-Crd_Aq5s.js",
     "name": "site",
     "src": "resources/js/site.js",
     "isEntry": true,
     "css": [
-      "assets/site-lFUEESd0.css"
+      "assets/site-B69HKyYP.css"
     ]
   }
 }
