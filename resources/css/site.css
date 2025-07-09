@@ -55,12 +55,15 @@ html {
 
 
 
-.swiper-button-next, .swiper-button-prev , .swiper-pagination-bullet-active
+.swiper-button-next, .swiper-button-prev
 {
-  background-color: #A3004C!important;
   color:#A3004C!important;
 }
 
+.swiper-pagination-bullet-active
+{
+  background-color:#A3004C!important;
+}
 
 .swiper-pagination-bullet
 {
