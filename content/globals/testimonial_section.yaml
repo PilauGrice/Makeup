@@ -1,0 +1,39 @@
+title: 'Testimonial section'
+data:
+  testimonials:
+    -
+      id: mcvu05gi
+      testimonial_name: 'Emma C'
+      testimonial_quote: 'I couldn’t be happier with the results! My makeup turned out even better than I imagined. She really listened to what I wanted and made sure I felt comfortable and confident with the look. Leading up to the day, her communication was excellent, professional, prompt, and reassuring. Highly recommend for anyone looking for a talented and thoughtful makeup artist!'
+      type: testimonial
+      enabled: true
+    -
+      id: mcvu1rj7
+      testimonial_name: Natalie
+      testimonial_quote: 'Patricia was friendly, and knew exactly what to do when I told her a natural look was wanted with the make up. Highly recommended and would definitely use again in the future.'
+      type: testimonial
+      enabled: true
+    -
+      id: mcvu24uq
+      testimonial_name: 'Angela B'
+      testimonial_quote: 'Amazing and felt so comfortable and my make up looks incredible!!'
+      type: testimonial
+      enabled: true
+    -
+      id: mcvu2quj
+      testimonial_name: 'Laura D'
+      testimonial_quote: 'Trish was a professional from start to finish. Her expertise and talent was apparent. We were all receiving complaints all night. I would 100% recommend and will be using her services again.'
+      type: testimonial
+      enabled: true
+    -
+      id: mcvu3e5f
+      testimonial_name: 'Hollie W'
+      testimonial_quote: 'From the moment Patricia walked in, I felt relaxed and comfortable. What a lovely person, the products are of high quality and everything was so spotless and clean. Patricia was gentle on the skin when applying make up and we enjoyed some laughs whilst trialling. The make up itself was spot on and perfect and she took the time before hand to find out how I wanted the makeup to look. Can highly recommend and cannot wait for my wedding day for have Patricia come by again.'
+      type: testimonial
+      enabled: true
+    -
+      id: mcvu3suz
+      testimonial_name: 'Katie B'
+      testimonial_quote: "Had my trial today and exceeded all expectations. Patricia was able to interpret what I wanted and then some. Can't wait for my wedding now!"
+      type: testimonial
+      enabled: true

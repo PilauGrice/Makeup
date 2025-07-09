@@ -15,3 +15,7 @@ tree:
     id: a8a0f51d-4650-4d99-b0e3-28e2b029177d
     title: Gallery
     url: /gallery
+  -
+    id: 9d4b9a6c-3ca4-424c-b205-23d22938fd1f
+    title: Testimonials
+    url: '/#testimonials'

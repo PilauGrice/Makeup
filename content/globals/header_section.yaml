@@ -7,6 +7,23 @@ data:
   link1: 'https://www.facebook.com/makeupwithpatricia/?_rdr'
   link2: 'https://www.instagram.com/makeupwithpatricia/'
   link3: 'mailto:makeup@makeupwithpatricia.co.uk'
-  bottom_text: 'Hello, my name is Patricia. I am a wife to a supportive husband and a mummy to 3 beautiful girls. I came into makeup later on I my life and have been working as a MUA since November 2016. I have always had a passion for creating my own style and makeup since I was a little girl but this is when I decided to turn my hobby into a professional business and share what I love with other people.'
+  bottom_text: |-
+    About Me
+
+    As an internationally published and award-winning makeup artist, I have dedicated my career to enhancing natural beauty and creating stunning transformations. With over 10 years of experience in the beauty industry, I specialise in a variety of makeup techniques, including bridal, editorial, and fashion makeup. 
+
+    Beyond my professional life, I am a proud mother of three beautiful girls and a loving wife. My family also includes our playful dog, who brings joy to our everyday lives. Balancing motherhood and my passion for makeup artistry fuels my creativity and inspires my work.
   herotext1: 'A Brush'
   herotext2: 'Of Perfection'
+  heropara: |-
+    Services Offered
+
+    - Bridal Makeup
+    - Editorial Makeup
+    - Fashion and Runway Makeup
+    - Special Effects Makeup
+    - Makeup masterclasses
+
+    Contact Me
+
+    For enquiries , bookings, or collaborations, please reach out via email or phone. I look forward to bringing your vision to life!

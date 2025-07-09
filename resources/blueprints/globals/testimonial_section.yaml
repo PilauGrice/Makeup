@@ -1,0 +1,22 @@
+title: Testimonials
+tabs:
+  main:
+    display: Main
+    sections:
+      - fields:
+          - handle: testimonials
+            field:
+              type: replicator
+              display: Testimonials
+              sets:
+                testimonial:
+                  display: Testimonial
+                  fields:
+                    - handle: testimonial_name
+                      field:
+                        type: text
+                        display: Testimonial Name
+                    - handle: testimonial_quote
+                      field:
+                        type: textarea
+                        display: Testimonial Quote

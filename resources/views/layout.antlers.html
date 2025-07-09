@@ -2,11 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ title }}</title>
 {{ vite src="resources/js/site.js" }}
 {{ vite src="resources/css/site.css" }}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5/dist/fancybox/fancybox.css" />
+<!-- Swiper CSS -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
 
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+{{ faviconator }}
 </head>
 <body class="bg-white text-gray-800">
   
@@ -21,7 +31,7 @@
 
   </main>
 
-
+{{ partial:testimonialsection }}
 
   <footer class="bg-brandPink  text-sm text-white " >
     {{ partial:footer}}
@@ -32,6 +42,26 @@
   Fancybox.bind("[data-fancybox='gallery']", {});
 </script>
 
+<script>
+  const swiper = new Swiper('.mySwiper', {
+    slidesPerView: 1,
+    spaceBetween: 24,
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+      768: { // from 768px width and up
+        slidesPerView: 2,
+      }
+    }
+  });
+</script>
 
 <script>
   document.querySelectorAll('.scroll-link').forEach(link => {

@@ -1,0 +1,21 @@
+title: Contact
+redirect: /#footer?success=1
+email:
+  -
+    id: mcp35poo
+    to: makeup@makeupwithpatricia.co.uk
+    template: emails.contact_email
+    mailer: smtp
+fields:
+  -
+    handle: name
+    field:
+      type: text
+  -
+    handle: email
+    field:
+      type: text
+  -
+    handle: user_message
+    field:
+      type: textarea

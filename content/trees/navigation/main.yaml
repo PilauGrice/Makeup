@@ -15,3 +15,7 @@ tree:
     id: 8454916e-c2f7-4901-ab1f-98523a4fc254
     title: Portfolio
     url: '#portfolio'
+  -
+    id: 71f4338c-9dfc-43a8-8753-0547428f9f58
+    title: Testimonials
+    url: '#testimonials'

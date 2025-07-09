@@ -1,0 +1,24 @@
+redirect: '/#footer?success=1'
+fields:
+  -
+    handle: name
+    field:
+      type: text
+  -
+    handle: email
+    field:
+      type: text
+  -
+    handle: user_message
+    field:
+      type: textarea
+title: Contact
+email:
+  -
+    id: mcp35poo
+    to: makeupwithpatricia@gmail.com
+    template: emails.contact_email
+    mailer: smtp
+    html: emails/contact_email
+    text: emails/contact_email
+    subject: 'Website Enquiry'
