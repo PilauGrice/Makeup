@@ -1,7 +1,7 @@
 ---
 id: 9ee3790e-ef0b-4bb4-b4f4-c2df1ece2199
 blueprint: home
-title: home
+title: 'Makeup with Patricia | Professional Makeup Artist in the UK for Weddings & Events'
 avatar: avatars/new-project.jpg
 myName: myName
 jobTitle: jobTitle
@@ -13,7 +13,7 @@ bottom_text: |-
 
   I'm a certified MUA through the International Open Academy, and a proud HD Brows professional since 2017. Beyond the beauty chair, I run bimonthly masterclasses for Girl Meets Brush and volunteer with Look Good Feel Better at Northampton General Hospital, helping women rediscover their confidence through makeup during their most vulnerable moments.
 updated_by: 3969b04d-cb2e-462f-a4db-89c4bd41cec8
-updated_at: 1751571684
+updated_at: 1752655332
 rightbg: feather-8762426_1280-(1).jpg
 herotext1: 'A Brush Of'
 herotext2: Perfection
@@ -295,4 +295,12 @@ preview_pic_3: gallery_images/img_2045-1024x683.jpg
 preview_pic_4: gallery_images/action-touch-ups-bridal-party-1-1024x684.jpg
 preview_pic_5: gallery_images/img_7568-scaled-1-819x1024.jpg
 preview_pic_6: gallery_images/action-portfolio-female-model-1024x682.jpg
+alt_seo_meta_title: 'Makeup with Patricia | Professional Makeup Artist in the UK for Weddings & Events'
+alt_seo_meta_description: 'Award-winning Midlands-based makeup artist for weddings UK-wide. Internationally published, known for flawless bridal looks & expert attention to detail.'
+alt_seo_canonical_url: 'https://makeupwithpatricia.co.uk/'
+alt_seo_noindex: false
+alt_seo_nofollow: false
+alt_seo_social_title: 'Makeup with Patricia | Professional Makeup Artist in the UK for Weddings & Events'
+alt_seo_social_description: 'Professional UK makeup artist specializing in bridal and event makeup. Book Makeup with Patricia for flawless, long-lasting beauty on your special day.'
+alt_seo_social_image: gallery_images/2f03f363-b90f-4ebf-8f63-0423d4ae91de-1024x683.jpeg
 ---

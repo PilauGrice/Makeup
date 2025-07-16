@@ -1,9 +1,9 @@
 ---
 id: d781173e-506c-4621-9404-799dbe45c909
 blueprint: gallery
-title: gallery
+title: 'Makeup Gallery | Bridal & Event Looks by Makeup with Patricia'
 updated_by: 3969b04d-cb2e-462f-a4db-89c4bd41cec8
-updated_at: 1751919244
+updated_at: 1752654657
 gallery_images:
   - gallery_images/048cf40e-45a6-45b5-a4c4-0d49280800c5-scaled-1-681x1024.jpeg
   - gallery_images/074030f0-63f4-49b9-81fe-83b311b517f7-scaled-1-684x1024.jpeg
@@ -97,4 +97,12 @@ gallery_images:
   - gallery_images/image6.jpg
   - image-(1).jpg
 template: templates/pages/gallery
+alt_seo_meta_title: 'Makeup Gallery | Bridal & Event Looks by Makeup with Patricia'
+alt_seo_meta_description: 'Explore Patricia’s makeup gallery featuring real bridal and event looks. See flawless transformations for weddings, proms, and special occasions.'
+alt_seo_canonical_url: 'https://makeupwithpatricia.co.uk/gallery'
+alt_seo_noindex: false
+alt_seo_nofollow: false
+alt_seo_social_title: 'https://makeupwithpatricia.co.uk/gallery'
+alt_seo_social_description: 'Explore Patricia’s makeup gallery featuring real bridal and event looks. See flawless transformations for weddings, proms, and special occasions.'
+alt_seo_social_image: gallery_images/creative-work-1-1024x895.jpg
 ---

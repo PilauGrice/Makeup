@@ -8,22 +8,24 @@ data:
   link2: 'https://www.instagram.com/makeupwithpatricia/'
   link3: 'mailto:makeup@makeupwithpatricia.co.uk'
   bottom_text: |-
-    About Me
+    <h2 class=" text-lg">About Me </h2>
 
-    As an internationally published and award-winning makeup artist, I have dedicated my career to enhancing natural beauty and creating stunning transformations. With over 10 years of experience in the beauty industry, I specialise in a variety of makeup techniques, including bridal, editorial, and fashion makeup. 
+    <p  class="mt-6">As an internationally published and award-winning makeup artist, I have dedicated my career to enhancing natural beauty and creating stunning transformations. With over 10 years of experience in the beauty industry, I specialise in a variety of makeup techniques, including bridal, editorial, and fashion makeup. </p>
 
-    Beyond my professional life, I am a proud mother of three beautiful girls and a loving wife. My family also includes our playful dog, who brings joy to our everyday lives. Balancing motherhood and my passion for makeup artistry fuels my creativity and inspires my work.
+    <p  class="mt-6">Beyond my professional life, I am a proud mother of three beautiful girls and a loving wife. My family also includes our playful dog, who brings joy to our everyday lives. Balancing motherhood and my passion for makeup artistry fuels my creativity and inspires my work.</p>
   herotext1: 'A Brush'
   herotext2: 'Of Perfection'
   heropara: |-
-    Services Offered
+    <h2 class="text-white text-3xl text-left">Services Offered</h2>
+    <ul class="text-white list-disc list-inside space-y-2 text-left">
+      <li><strong>Bridal Makeup</strong> — Creating flawless, long-lasting looks tailored to your special day.</li>
+      <li><strong>Editorial Makeup</strong> — Artistic and high-impact makeup for magazines, photoshoots, and campaigns.</li>
+      <li><strong>Fashion & Runway Makeup</strong> — Bold, trend-setting styles for catwalks and fashion events.</li>
+      <li><strong>Special Effects Makeup</strong> — Creative effects for film, theatre, and themed events.</li>
+      <li><strong>Makeup Masterclasses</strong> — Personalized lessons to enhance your skills, from beginner to advanced.</li>
+    </ul>
 
-    - Bridal Makeup
-    - Editorial Makeup
-    - Fashion and Runway Makeup
-    - Special Effects Makeup
-    - Makeup masterclasses
-
-    Contact Me
-
-    For enquiries , bookings, or collaborations, please reach out via email or phone. I look forward to bringing your vision to life!
+    <h2 class="text-white text-3xl text-left mt-6">Contact Me</h2>
+    <p class="text-white text-left">
+      Ready to elevate your look or collaborate on your next project? For enquiries, bookings, or bespoke consultations, please get in touch via email or phone. I’m excited to help bring your vision to life!
+    </p>
