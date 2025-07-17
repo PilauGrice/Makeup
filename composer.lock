@@ -4,8 +4,52 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fc5404ec0d1c6415696f9771d3019ae8",
+    "content-hash": "8421721e1abb2faeec7894bd9d5e2ddd",
     "packages": [
+        {
+            "name": "ademti-software/form-protection",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ademti-software/form-protection.git",
+                "reference": "08926d148e8dc0623d9f5e0b3a9faa7c50650d3e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ademti-software/form-protection/zipball/08926d148e8dc0623d9f5e0b3a9faa7c50650d3e",
+                "reference": "08926d148e8dc0623d9f5e0b3a9faa7c50650d3e",
+                "shasum": ""
+            },
+            "require": {
+                "statamic/cms": "^5.35"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Ademti\\FormProtection\\ServiceProvider"
+                    ]
+                },
+                "statamic": {
+                    "name": "Form Protection",
+                    "description": "Form Protection addon"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Ademti\\FormProtection\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "support": {
+                "issues": "https://github.com/ademti-software/form-protection/issues",
+                "source": "https://github.com/ademti-software/form-protection/tree/v1.0.1"
+            },
+            "time": "2024-10-28T15:56:04+00:00"
+        },
         {
             "name": "ajthinking/archetype",
             "version": "v2.0.0",
@@ -114,6 +158,53 @@
                 "source": "https://github.com/alt-design/Alt-SEO-Addon/tree/v1.3.0"
             },
             "time": "2025-04-14T12:38:25+00:00"
+        },
+        {
+            "name": "anakadote/statamic-recaptcha",
+            "version": "2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/anakadote/statamic-recaptcha.git",
+                "reference": "c6635d597c3f51481df8211a391a0b69ddf61ad2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/anakadote/statamic-recaptcha/zipball/c6635d597c3f51481df8211a391a0b69ddf61ad2",
+                "reference": "c6635d597c3f51481df8211a391a0b69ddf61ad2",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Anakadote\\StatamicRecaptcha\\ServiceProvider"
+                    ]
+                },
+                "statamic": {
+                    "name": "Statamic reCAPTCHA (v3 and v2)",
+                    "description": "A Google reCAPTCHA v3 and v2 addon."
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Anakadote\\StatamicRecaptcha\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Collins",
+                    "homepage": "https://endif.io"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/anakadote/statamic-recaptcha/issues",
+                "source": "https://github.com/anakadote/statamic-recaptcha/tree/2.0"
+            },
+            "time": "2025-06-27T19:16:37+00:00"
         },
         {
             "name": "brick/math",
@@ -3329,6 +3420,62 @@
                 }
             ],
             "time": "2025-05-08T08:14:37+00:00"
+        },
+        {
+            "name": "pecotamic/sitemap",
+            "version": "1.4.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pecotamic/sitemap.git",
+                "reference": "e51b96b6b602d743c171e974bbd5aed553d6d481"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pecotamic/sitemap/zipball/e51b96b6b602d743c171e974bbd5aed553d6d481",
+                "reference": "e51b96b6b602d743c171e974bbd5aed553d6d481",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1|^8.0",
+                "statamic/cms": "^3.0|^4.0|^5.0"
+            },
+            "type": "statamic-addon",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Pecotamic\\Sitemap\\ServiceProvider"
+                    ]
+                },
+                "statamic": {
+                    "name": "Pecotamic Sitemap",
+                    "description": "Sitemap addon"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Pecotamic\\Sitemap\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Werner Freytag",
+                    "email": "wf@pecora.de"
+                }
+            ],
+            "description": "Simple sitemap addon for Statamic v3",
+            "keywords": [
+                "Sitemap",
+                "statamic"
+            ],
+            "support": {
+                "issues": "https://github.com/pecotamic/sitemap/issues",
+                "source": "https://github.com/pecotamic/sitemap/tree/1.4.9"
+            },
+            "time": "2025-01-29T16:06:03+00:00"
         },
         {
             "name": "phpoption/phpoption",

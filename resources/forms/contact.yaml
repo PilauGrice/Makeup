@@ -12,6 +12,8 @@ fields:
     handle: user_message
     field:
       type: textarea
+afp_dw_noscript_location: hidden
+afp_dw_protection: true
 title: Contact
 email:
   -
